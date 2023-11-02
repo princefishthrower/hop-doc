@@ -16,7 +16,7 @@
     "semantic-ui-react": "^0.84.0"
   },
   "scripts": {
-    "parser": "node src/utils/parser.js && ./copydata.sh",
+    "parser": "node src/utils/parser.js && ./src/dev/copydata.sh",
     "tester": "node src/utils/tester.js",
     "start": "react-app-env start",
     "build": "react-app-env build",
